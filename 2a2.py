@@ -1,3 +1,5 @@
+"""Tihi"""
+
 def make_triangle(num):
     """Prints a triangle with the height of the input number"""
     for v in range(1, (num + 1)):
