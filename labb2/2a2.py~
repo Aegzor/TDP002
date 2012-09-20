@@ -1,0 +1,17 @@
+def make_triangle(num):
+    """Prints a triangle with the height of the input number"""
+    for v in range(1, (num + 1)):
+        print (' ' * (num - v) + '*' * (2 * v - 1) + ' ' * (num - v))
+
+def triangle():
+    """Prompts the user to input a value, if value isn't an integer... ask the 
+    user to try again"""
+    antal_rader = input('Ange ett heltal: ')
+    while antal_rader.isdigit() == False:
+        antal_rader = input('Värdet du angav var inte ett heltal, försök igen: '
+                            )
+ 
+    antal_rader = int(antal_rader)	#Converts the number to an int
+    make_triangle(antal_rader)		#Calls the make_triangle function
+
+triangle()	#Calls the triangle function
