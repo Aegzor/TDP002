@@ -1,7 +1,0 @@
-def asterix():
-	print("*" * (len(text) + 4))
-	print("* " + text + " *")
-	print("*" * (len(text) + 4))
-
-text = input("Mata in en text: ")
-asterix()

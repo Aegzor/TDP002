@@ -1,7 +1,0 @@
-def flag(size):
-    print('*' * (10 * size) +  ' ' * (2 * size) + '*' * (10 * size))
-    print('*' * (10 * size) +  ' ' * (2 * size) + '*' * (10 * size))
-    print('*' * (10 * size) +  ' ' * (2 * size) + '*' * (10 * size))
-
-size = input("Skriv en siffra, få en flagga: ")
-flag(size)

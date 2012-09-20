@@ -1,7 +1,0 @@
-text = input("Mata in en text: ")
-length = len(text)
-print("*") * (length + 4)
-print("* " + text + " *")
-print("*" * (length + 4))
-
-
