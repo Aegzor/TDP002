@@ -1,3 +1,5 @@
+#ändring gjord
+
 def shopping_list():
     """Shows the list items as a numbered list"""
     print('\n')
